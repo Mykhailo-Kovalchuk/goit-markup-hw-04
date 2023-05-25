@@ -95,6 +95,10 @@ margin-right: 76px;
 /* ---------LINK----------- */
 .link {text-decoration: none;}
 
+
+/* ---------LIST---------- */
+.list {list-style: none;}
+
 /* header link, list */
 .header-link {
     font-weight: 500;
@@ -119,8 +123,7 @@ margin-right: 76px;
 .header-list-menu:focus {color: var(--ocean-color);}
 
 
-/* ---------LIST---------- */
-.list {list-style: none;}
+
 
 /* header address link */
     .address-link {
@@ -425,6 +428,8 @@ border-radius: 4px;
     width: 104px;
     height: 56px;
     margin: 16px 32px;
+
+    fill: var(--light-slate-color);
 }
 .customers-icon {
     width: 41px;
@@ -435,7 +440,7 @@ border-radius: 4px;
 .customers-item:focus 
 {border: 1px solid var(--ocean-color);}
 
-/* колір svg не змінюється при ховері та фокусі -виправити пізніше */
+
 .customers-link:hover .customers-logo,
 .customers-link:focus .customers-logo
  {fill: var(--ocean-color);}

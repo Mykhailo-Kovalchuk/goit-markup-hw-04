@@ -423,7 +423,7 @@ margin-bottom: 72px
 
 .customers-item {
 
-    width: calc((100%-120px)/6);
+    width: calc((100% - 120px)/6);
     height: 88px;
     box-sizing: border-box;
     left: 0%;
@@ -465,7 +465,7 @@ fill: currentColor;
 
 .customers-link:hover .customers-logo,
 .customers-link:focus .customers-logo
- {fill: var(--ocean-color);}
+ {color: var(--ocean-color);}
 
 
 
@@ -563,10 +563,7 @@ border-radius: 50%;}
 {background-color: var(--green-color);}
 
 .social-logo {fill: var(--cloud-color);
-
 }
-
-
 
     /* ----------- Portfolio Main -------------- */
 .portfolio-section {

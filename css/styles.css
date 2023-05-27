@@ -453,19 +453,15 @@ margin: 16px 32px;
 fill: currentColor;
 }
 
-.customers-icon {
-    width: 41px;
-    height: 47px;
-}
-
 .customers-link:hover, 
 .customers-link:focus 
-{border: 1px solid var(--ocean-color);}
+{border: 1px solid var(--ocean-color);
+    color: var(--ocean-color);}
 
 
-.customers-link:hover .customers-logo,
+/* .customers-link:hover .customers-logo,
 .customers-link:focus .customers-logo
- {color: var(--ocean-color);}
+ {color: var(--ocean-color);} */
 
 
 
